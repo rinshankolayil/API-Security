@@ -24,11 +24,12 @@ Step 2
 <br>
 Step 3
 <br>
-Generate Private & Public key using OpenSSL
-<br>
-<code>openssl genrsa -out private-key.pem 1048</code>
-<br>
-<code>openssl rsa -in private-key.pem -pubout -out public-key.pem</code>
+<ul>
+  <li>Generate Private & Public key using OpenSSL</li>
+  <li><code>openssl genrsa -out private-key.pem 1048</code></li>
+  <li><code>openssl rsa -in private-key.pem -pubout -out public-key.pem</code></li>
+</ul>
+
 
 
 
