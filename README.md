@@ -1,6 +1,6 @@
 # API Security
 
 <ul>
-  <li>RSA</li>
-  <li>OAuth2>
+  <li>Crypt RSA</li>
+  <li>OAuth2</li>
 </ul>
