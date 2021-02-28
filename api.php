@@ -1,3 +1,4 @@
+<?php
 set_include_path(get_include_path() . PATH_SEPARATOR . 'RSA');
 include_once 'RSA/Crypt/RSA.php';
 $rsa = new Crypt_RSA();
@@ -6,8 +7,7 @@ $rsa->loadKey(file_get_contents('RSA/private.key'));
 $rsa->setPassword();
 $rsa->getPrivateKey();
 $OAuthToken = $_POST['OAuthToken'];
-$signature = $rsa->sign($plaintext);
-$publickey = file_get_contents('RSA/public.pem');
+$signature = $rsa->sign($OAuthToken);
 $clent_id = $_POST['client_id'];
 $redirect_uri = $_POST['redirect_uri'];
 $$public_key_posted = $_POST['public_key_posted'];
