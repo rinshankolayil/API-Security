@@ -29,6 +29,15 @@ Step 3
   <li><code>openssl genrsa -out private-key.pem 1048</code></li>
   <li><code>openssl rsa -in private-key.pem -pubout -out public-key.pem</code></li>
 </ul>
+<br>
+Step 4
+<br>
+<ul>
+  <li>Save public key as OAuthToken</li>
+  <li>Set up redirect url</li>
+  <li>Set up client id / user id</li>
+</ul>
+
 
 
 
