@@ -7,10 +7,8 @@
 </ul>
 
 Generate Private & Public key using OpenSSL
-<ul>
-  <li>openssl genrsa -out private-key.pem 1048</li>
-  <li>openssl rsa -in private-key.pem -pubout -out public-key.pem</li>
-</ul>
+ <code>openssl genrsa -out private-key.pem 1048</code>
+ <code>openssl rsa -in private-key.pem -pubout -out public-key.pem</code>
 
 
 
