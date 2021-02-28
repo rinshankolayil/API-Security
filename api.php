@@ -3,7 +3,7 @@ set_include_path(get_include_path() . PATH_SEPARATOR . 'RSA');
 include_once 'RSA/Crypt/RSA.php';
 $rsa = new Crypt_RSA();
 $rsa->setPassword('password');
-$rsa->loadKey(file_get_contents('RSA/private.key'));
+$rsa->loadKey(file_get_contents('PATH_TO_PRIVATE_KEY_FOLDER/private.key'));
 $rsa->setPassword();
 $rsa->getPrivateKey();
 $OAuthToken = $_POST['OAuthToken'];
