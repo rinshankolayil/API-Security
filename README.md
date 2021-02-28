@@ -19,7 +19,7 @@ Step 2
   <li>The new latest stable version of OpenSSL has been installed from source on Linux Ubuntu 18.04 and CentOS 7.5</li>
   <li>Extract folder and save in your prefered location</li>
   <li>Open commdand prompt in the bin folder of extracted folder or add environment variable</li>
-  <li>Example : D:\PATH\OPENSSL\bin</li>
+  <li>Environment variable Example : D:\PATH\OPENSSL\bin</li>
 </ol>
 <br>
 Step 3
