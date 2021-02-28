@@ -5,7 +5,22 @@
   <li>OAuth2</li>
   <li>Open SSL</li>
 </ul>
-
+Step 1
+<br>
+<ol>
+  <li>Enable open ssl in web browser nginx or apache</li>
+  <li>Restart web server</li>
+</ol>
+<br>
+Step 2
+<br>
+<ol>
+  <li>Download OpenSSL from https://code.google.com/archive/p/openssl-for-windows/downloads</li>
+  <li>Extract folder and save in your prefered location</li>
+  <li>Open commdand prompt in the bin folder of extracted folder or add environment variable</li>
+  <li>Example : D:\PATH\OPENSSL\bin</li>
+</ol>
+<br>
 Generate Private & Public key using OpenSSL
 <br>
  <code>openssl genrsa -out private-key.pem 1048</code>
