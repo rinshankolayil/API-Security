@@ -9,7 +9,7 @@ $rsa->getPrivateKey();
 $OAuthToken = $_POST['OAuthToken'];
 $signature = $rsa->sign($OAuthToken);
 $clent_id = $_POST['client_id'];
-$redirect_uri = $_POST['redirect_uri'];
+$redirect_uri = $_POST['redirect_uri']; // DOMAIN NAME OR IP OF SERVER, SERVER NAME IS FROM WEB SERVER (APACHE / NGINX /)
 $$public_key_posted = $_POST['public_key_posted'];
 $publickey = '-----BEGIN PUBLIC KEY-----' . "\r\n" . $public_key_posted . "\r\n" . "-----END PUBLIC KEY-----";
 $rsa->loadKey($publickey);
