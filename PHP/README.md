@@ -9,7 +9,7 @@
 <ul>
   <li>MAN IN MIDDLE ATTACK</li>
   <li>HTTPS</li>
-  <li>ENCRYPTION</li>
+  <li>FIREWALL</li>
 </ul>
 Step 1
 <br>
