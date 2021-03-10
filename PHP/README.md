@@ -5,6 +5,12 @@
   <li>OAuth2</li>
   <li>Open SSL</li>
 </ul>
+# DO REFER
+<ul>
+  <li>MAN IN MIDDLE ATTACK</li>
+  <li>HTTPS</li>
+  <li>ENCRYPTION</li>
+</ul>
 Step 1
 <br>
 <ol>
