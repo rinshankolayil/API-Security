@@ -13,7 +13,7 @@
   <li>SECURITY TIPS <a href="https://phoenixnap.com/kb/server-security-tips" target="_blank">Click here to get more details</a></li>
   <li>MFA AUTHETICATIONS</li>
   <li>Fail2Ban to prevent brute force attack (Linux) <a href="https://phoenixnap.com/kb/prevent-brute-force-attacks">For more details</a></li>
-  <li>Validate through requesting server from http header to verfiy sendor</li>
+  <li>Verify sendor from http header</li>
 </ul>
 Step 1
 <br>
