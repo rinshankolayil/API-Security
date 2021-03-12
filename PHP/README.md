@@ -14,6 +14,7 @@
   <li>MFA AUTHETICATIONS</li>
   <li>Fail2Ban to prevent brute force attack (Linux) <a href="https://phoenixnap.com/kb/prevent-brute-force-attacks">For more details</a></li>
   <li>Verify sendor from http header</li>
+  <li>Use different network for Wifi (Public wifi) & Local network</li>
 </ul>
 Step 1
 <br>
