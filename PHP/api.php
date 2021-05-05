@@ -1,6 +1,6 @@
 <?php
 
-class RestApiController extends StatusCodes
+class Api extends StatusCodes
 {
 	protected $http_origin;
 	protected $allowed_orgins;
