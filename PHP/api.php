@@ -47,7 +47,7 @@ class RestApiController extends StatusCodes
 	}
 
 
-	public function apiUpdateGoldrate()
+	public function functionName()
 	{
 		$this->security_check($_POST);
 	}
