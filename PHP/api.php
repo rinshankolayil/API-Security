@@ -29,7 +29,6 @@ class RestApiController extends StatusCodes
 		if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 			$this->create_response(array(), 6);
 		}
-		$this->restmodal = new RestModal();
 	}
 	// START **** CHECK OUT THESE FUNCTIONS ****  //
 	// $this->security_check();
